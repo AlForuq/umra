@@ -42,7 +42,7 @@ export const Logo = styled.img`
   cursor: pointer;
 
   ${media.mobile} {
-    margin-left: -28px;
+    margin-left: -55px;
   }
 `;
 
