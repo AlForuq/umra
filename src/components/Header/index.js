@@ -85,7 +85,7 @@ export const Header = () => {
               <Li>Biz Haqimizda</Li>
             </Link>
             <Link to="aboutService" span={true} smooth={true}>
-              <Li>Mizning Xizmatlar</Li>
+              <Li>Bizning Xizmatlar</Li>
             </Link>
             <Link to="gifts" span={true} smooth={true}>
               <Li>Sovg'alar</Li>

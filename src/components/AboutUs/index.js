@@ -34,7 +34,7 @@ export const AboutUs = () => {
           <Card>
             <img alt="" src={calendar} />
             <Text>
-              <span>14 kunlik</span> Muborak Umara
+              <span>14 kunlik</span> Muborak Umra
             </Text>
           </Card>
           <Card>

@@ -31,7 +31,7 @@ export const Gifts = () => {
         </Card>
         <Card>
           <img alt="" src={suit} />
-          <Text>Beyjik</Text>
+          <Text>Peyjak</Text>
         </Card>
       </Wrapper>
     </Container>

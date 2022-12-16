@@ -52,7 +52,6 @@ export const SubTitle = styled.div`
 
   ${media.mobile} {
     font-size: 20px;
-    
   }
 `;
 export const Number = styled.div`
@@ -82,16 +81,42 @@ export const Phone = styled(BsTelephoneForward)``;
 export const Telegram = styled(FaTelegramPlane)`
   font-size: 40px;
   color: white;
+
+  transition: 0.5s ease;
+
+  :hover {
+    transform: scale(1.1);
+  }
+  :active {
+    transform: scale(0.96);
+  }
 `;
 
 export const TelegramGroup = styled(BsTelegram)`
   font-size: 40px;
   color: white;
+  transition: 0.5s ease;
+
+  :hover {
+    transform: scale(1.1);
+  }
+  :active {
+    transform: scale(0.96);
+  }
 `;
 
 export const Instagram = styled(BsInstagram)`
   font-size: 40px;
   color: white;
+
+  transition: 0.5s ease;
+
+  :hover {
+    transform: scale(1.1);
+  }
+  :active {
+    transform: scale(0.96);
+  }
 `;
 
 export const Location = styled(ImLocation)`
