@@ -4,6 +4,7 @@ import mobileImg from "../../assets/images/mobileMain.jpg";
 
 const media = {
   mobile: `@media(max-width:480px)`,
+  tablet: `@media(max-width:768px)`,
 };
 
 export const Container = styled.div`
@@ -34,6 +35,10 @@ export const MainInfo = styled.div`
   ${media.mobile} {
     background-image: url(${mobileImg});
   }
+
+  ${media.tablet} {
+    background-size: 100% 90vh;
+  }
 `;
 
 // export const Wrapper = styled.div``;
@@ -44,6 +49,10 @@ export const Title = styled.div`
   ${media.mobile} {
     font-size: 50px;
     margin-top: 20px;
+  }
+
+  ${media.tablet} {
+    text-align: center;
   }
 `;
 

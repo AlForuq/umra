@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 const media = {
   mobile: `@media(max-width:480px)`,
+  tablet: `@media(max-width:768px)`,
+  laptop: `@media(max-width:1279px)`,
 };
 
 export const Container = styled.div`
@@ -16,7 +18,7 @@ export const Container = styled.div`
 
   box-sizing: border-box;
 
-   ${media.mobile} {
+  ${media.mobile} {
     padding: 20px 0px;
   }
 `;
@@ -27,6 +29,20 @@ export const MainWrapper = styled.div`
   width: 100%;
 
   ${media.mobile} {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  ${media.tablet} {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  ${media.laptop} {
     flex-direction: column;
     display: flex;
     justify-content: center;
@@ -44,6 +60,10 @@ export const CarouselDiv = styled.div`
   ${media.mobile} {
     border: none;
   }
+
+  ${media.tablet} {
+    border: none;
+  }
 `;
 
 export const Title = styled.div`
@@ -52,6 +72,11 @@ export const Title = styled.div`
 
   ${media.mobile} {
     font-size: 30px;
+    text-align: center;
+  }
+
+  ${media.tablet} {
+    font-size: 45px;
     text-align: center;
   }
 `;
@@ -67,14 +92,32 @@ export const Wrapper = styled.div`
   padding: 30px 30px;
 
   ${media.mobile} {
-    border-left: 1px solid white;
+    border: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     /* padding: 0px 0px; */
-    gap:20px
+    gap: 20px;
+  }
+  ${media.tablet} {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* padding: 0px 0px; */
+    gap: 20px;
+  }
+  ${media.laptop} {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
   }
 `;
 export const Card = styled.div`
@@ -102,7 +145,13 @@ export const Card = styled.div`
     height: 200px;
     padding: 20px 20px;
     border: none;
-    
+  }
+
+  ${media.tablet} {
+    width: 400px;
+    height: 200px;
+    padding: 20px 20px;
+    border: none;
   }
 `;
 export const Text = styled.div`

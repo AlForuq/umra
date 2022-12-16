@@ -5,6 +5,8 @@ import { ReactComponent as Arrow } from "../../assets/icons/left-arrow.svg";
 // import { ReactComponent as RightArrow } from '../../../assets/icons/right-arrow.svg'
 const media = {
   mobile: `@media(max-width:480px)`,
+  tablet: `@media(max-width:678px)`,
+  laptop: `@media(max-width:992px)`,
 };
 
 export const CarouselWrapper = styled("div")`
@@ -13,6 +15,14 @@ export const CarouselWrapper = styled("div")`
 
   ${media.mobile} {
     width: 280px;
+  }
+
+  ${media.tablet} {
+    width: 500px;
+  }
+
+  ${media.laptop} {
+    width: 500px;
   }
 `;
 

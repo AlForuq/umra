@@ -14,10 +14,10 @@ export const Container = styled.div`
   font-family: sans-serif;
 
   ${media.mobile} {
-    width: 480px;
+    max-width: 480px;
   }
 
   ${media.tablet} {
-    width: 768px;
+    max-width: 768px;
   }
 `;

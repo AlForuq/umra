@@ -3,6 +3,7 @@ import { FiMenu as ico } from "react-icons/fi";
 
 const media = {
   mobile: `@media(max-width:480px)`,
+  tablet: `@media(max-width:768px)`,
 };
 
 export const Container = styled.div`
@@ -74,8 +75,6 @@ export const MobileUl = styled.ul`
   gap: 32px;
   color: white;
 
-  
-
   @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
@@ -130,6 +129,10 @@ export const Contact = styled.button`
 
   ${media.mobile} {
     margin-right: 20px;
+  }
+
+  ${media.tablet} {
+    margin-right: 60px;
   }
 `;
 
