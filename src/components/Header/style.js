@@ -54,7 +54,7 @@ export const MobileWrapper = styled.div`
 
   position: fixed;
   right: 0.1rem;
-  top: 1.2rem;
+  top: 1.1rem;
 
   background-color: darkgreen;
   border-radius: 5px;
