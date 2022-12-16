@@ -33,6 +33,7 @@ export const MenuIcon = styled(ico)`
   :active {
     transform: scale(1.1);
   }
+  /* margin-top:5px; */
 `;
 
 export const Logo = styled.img`
@@ -53,7 +54,7 @@ export const MobileWrapper = styled.div`
 
   position: fixed;
   right: 0.1rem;
-  top: 0.9rem;
+  top: 1.2rem;
 
   background-color: darkgreen;
   border-radius: 5px;
@@ -64,6 +65,7 @@ export const MobileWrapper = styled.div`
   padding-right: ${({ barClosed }) => (barClosed ? "0rem" : "2rem")};
   padding: ${({ barClosed }) => barClosed && "4px"};
   margin-right: ${({ barClosed }) => (barClosed ? "1rem" : "0rem")};
+  margin-top: ${({ barClosed }) => (barClosed ? "0rem" : "-0.2rem")};
   z-index: 10;
 
   ${media.mobile} {
