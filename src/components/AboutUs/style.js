@@ -71,7 +71,7 @@ export const Title = styled.div`
   font-size: 60px;
 
   ${media.mobile} {
-    font-size: 30px;
+    font-size: 30px !important;
     text-align: center;
   }
 
@@ -141,7 +141,7 @@ export const Card = styled.div`
   }
 
   ${media.mobile} {
-    width: 230px;
+    width: 230px !important ;
     height: 200px;
     padding: 20px 20px;
     border: none;

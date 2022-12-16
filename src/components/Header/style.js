@@ -128,7 +128,7 @@ export const Contact = styled.button`
   }
 
   ${media.mobile} {
-    margin-right: 20px;
+    margin-right: 20px !important ;
   }
 
   ${media.tablet} {

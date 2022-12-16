@@ -14,14 +14,10 @@ export const CarouselWrapper = styled("div")`
   width: 600px;
 
   ${media.mobile} {
-    width: 280px;
+    width: 280px !important ;
   }
 
   ${media.tablet} {
-    width: 500px;
-  }
-
-  ${media.laptop} {
     width: 500px;
   }
 `;
